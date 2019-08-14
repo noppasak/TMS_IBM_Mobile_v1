@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">TMS</string>
+
+    <string name="btnTakeBarcode">Scan Car ID</string>
+    <string name="btnTakePicture">Capture Image</string>
+
+
+    <string name="btnRecordVideo">Record Video</string>
+    <string name="or">(or)</string>
+    <string name="btnUploadToServer">Upload to Server</string>
+    <string name="btnFinish">Complete Scan Car</string>
+
+    <string name="file_provider_authority" translatable="false">com.thcvl.it.tms</string>
+</resources>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="1">
+
+
+    <TextView
+        android:id="@+id/lbltype"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="รหัสผ่าน"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2" />
+
+    <Space
+        android:layout_width="match_parent"
+
+        android:layout_height="15dp" />
+
+    <TextView
+        android:id="@+id/lbluser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="รหัสรถ:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2" />
+
+    <TextView
+        android:id="@+id/lblstatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Current Status: "
+        android:textAppearance="@style/TextAppearance.AppCompat.Caption" />
+
+
+    <Button
+        android:id="@+id/buttonReload"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="10dp"
+        android:text="Reload" />
+
+    <Button
+        android:id="@+id/buttonA"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="10dp"
+        android:text="มาทำงาน" />
+
+    <Button
+        android:id="@+id/buttonU"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="10dp"
+        android:text="เลิกงาน" />
+
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="10dp"
+        android:text="ออกจากหน้าจอ" />
+
+</LinearLayout>
+
